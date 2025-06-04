@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* Fonts initialisation */
     @font-face {
         font-family: 'Roboto';
         src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
@@ -24,6 +25,7 @@
         width: 100%;
         margin-bottom: 40px;
     }
+    /* this hides the desktop image when on mobile view */
     .desktop-image {
         display: none;
     }
@@ -51,6 +53,7 @@
     .icon-list {
         margin-left: 24px;
     }
+    /* used flexbox to properly display the list items */
     .list-item1, .list-item2, .list-item3 {
         display: flex;
         align-items: flex-start;
@@ -126,9 +129,11 @@
             margin: 268px;
             height: 641px;
         }
+        /* this hides the mobile image when on desktop view */
         .mobile-image {
             display: none;
         }
+        /* this displays the desktop image and styles it properly */
         .desktop-image {
             display: block;
             width: 100%;
@@ -141,6 +146,7 @@
             align-items: center;
             gap: 64px;
         }
+        /* used this to resize the width of the div to design specifications */
         .flex-container1 {
             width: 24rem;
         }
