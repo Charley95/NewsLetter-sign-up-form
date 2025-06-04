@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    @font-face {
+        font-family: 'Roboto';
+        src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Roboto';
+        src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobile-image {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    h1, p {
+        color: hsl(234, 29%, 20%);
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 16px;
+        
+    }
+    h1, p, #form {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .join {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .list {
+        margin-bottom: 40px;
+    }
+    .icon-list {
+        margin-left: 24px;
+    }
+    .list-item1, .list-item2, .list-item3 {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 16px;
+    }
+    
+    label {
+        font-size: 12px;
+        font-weight: bold;
+        color: hsl(234, 29%, 20%);
+    }
+    input {
+        width: 100%;
+        height: 56px;
+        padding: 16px 24px;
+        border-radius: 8px;
+        border-style: solid;
+        margin-top: 8px;
+    }
+    .subscribe{
+        margin-top: 24px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 56px;
+        padding: 16px 48px;
+        border-radius: 8px;
+        background-color: hsl(234, 29%, 20%);
+        color: white;
+        border: none;
+    }
+    
+    .hidden {
+        display: none;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (min-width: 768px) {
+        body {
+            background-color: hsl(235, 18%, 16%);
+            margin: 80px;
+        }
+        .main-container {
+            padding: 40px;
+            background-color: white;
+        }
+    } 
+        
+        
+    
