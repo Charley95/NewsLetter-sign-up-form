@@ -106,13 +106,27 @@
         border: none;
         margin-top: 255px;
     }
+    .error-message {
+        color: red;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    input.error {
+        border-color: red;
+    }
     
     .hidden {
         display: none;
     }
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
 
 
     /* Media query for tablets */
@@ -154,6 +168,9 @@
         }
         .dismiss-message {
             margin-top: 32px;
+        }
+        .attribution {
+            color: white;
         }
     } 
 

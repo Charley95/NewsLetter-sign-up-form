@@ -31,9 +31,10 @@
   </div>
 </div>
   
-<form action="" id="form">
+<form action="" id="form" novalidate>
   <label for="email">Email address</label>
   <input type="email" placeholder="email@company.com" name="email" id="email" >
+  <div id="email-error" class="error-message"></div>
   <input type="submit" class="subscribe" value="Subscribe to monthly newsletter">
 </form>
     </div>
@@ -52,7 +53,7 @@
     <img src="./assets/images/icon-success.svg" alt="">
   <h1>Thanks for subscribing!</h1>
 
-  <p>A confirmation email has been sent to ash@loremcompany.com. 
+  <p>A confirmation email has been sent to <strong id="registered-email"></strong>. 
   Please open it and click the button inside to confirm your subscription.</p>
   <button class="dismiss-message">Dismiss message</button>
   </div>
