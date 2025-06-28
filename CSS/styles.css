@@ -142,7 +142,7 @@ input.error {
 }
 
 .hidden {
-   display: none;
+   display: none !important;
 }
 
 .attribution {
@@ -196,16 +196,18 @@ input.error {
 
    .success-message {
       width: 504px;
-      height: 520px;
+      height: 560px;
       border-radius: 36px;
       margin-left: auto;
       margin-right: auto;
       margin-top: 250px;
+      margin-bottom: 250px;
       padding: 64px;
    }
 
    .dismiss-message {
       margin-top: 32px;
+      margin-bottom: 32px;
    }
 
    .attribution {

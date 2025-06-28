@@ -17,7 +17,7 @@ form.addEventListener('submit', function (event) {
       emailError.textContent = ''; // Clear any previous error message
       emailInput.classList.remove('error'); // Remove error class if it exists
       const registeredEmail = document.querySelector('#registered-email');
-      registeredEmail.textContent = userEmail; // Display the entered email in the success message
+      registeredEmail.textContent = userEmail.toLowerCase(); // Display the entered email in the success message
 
       signUpPage.classList.add('hidden'); // Hide the sign-up page
       successMessage.classList.remove('hidden'); // Show the success message
@@ -40,5 +40,5 @@ form.addEventListener('submit', function (event) {
 // Function to validate the email format using a regular expression
 function validateEmail(email) {
    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-   return re.test(String(email).toLowerCase());
+   return re.test(String(email).toLowerCase(email));
 }
