@@ -1,11 +1,11 @@
 // This script handles the email validation and form submission for a sign-up page
 
-const form = document.querySelector('#form');
-const successMessage = document.querySelector('.success-message');
-const signUpPage = document.querySelector('.main-container');
-const dismissMessage = document.querySelector('.dismiss-message');
-const emailInput = document.querySelector('#email');
-const subscribeBtn = document.querySelector('.subscribe');
+const form = document.querySelector("#form");
+const successMessage = document.querySelector(".success-message");
+const signUpPage = document.querySelector(".main-container");
+const dismissMessage = document.querySelector(".dismiss-message");
+const emailInput = document.querySelector("#email");
+const subscribeBtn = document.querySelector(".subscribe");
 
 // Event listener for email input to validate the email format and toggle the subscribe button state
 emailInput.addEventListener('input', function () {
