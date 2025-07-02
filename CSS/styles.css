@@ -129,6 +129,7 @@ input {
    color: white;
    border: none;
    margin-top: 255px;
+   font-weight: bold;
 }
 
 .error-message {
@@ -139,6 +140,7 @@ input {
 
 input.error {
    border-color: red;
+   background-color: hsl(346, 100%, 66%, 0.2);
 }
 
 .hidden {
@@ -240,6 +242,17 @@ input.error {
       justify-content: center;
       align-items: center;
       gap: 64px;
+   }
+
+   .active {
+   background-image: linear-gradient(to right, hsl(15, 100%, 61%), hsl(346, 100%, 66%));
+   color: white;
+   }
+
+   .dismiss-message:hover {
+   background-image: linear-gradient(to right, hsl(15, 100%, 61%), hsl(346, 100%, 66%));
+   color: white;
+   box-shadow: 5px 15px 30px 2px lightcoral;
    }
 
    /* used this to resize the width of the div to design specifications */
