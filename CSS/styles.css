@@ -154,7 +154,10 @@ input.error {
 }
 
 .attribution a {
-   color: hsl(228, 45%, 44%);
+   text-decoration: none;
+}
+a:hover {
+   font-size: 20px;
 }
 
 
@@ -214,6 +217,9 @@ input.error {
 
    .attribution {
       color: white;
+   }
+   .attribution a {
+      color: hsl(346, 100%, 66%);
    }
 }
 
